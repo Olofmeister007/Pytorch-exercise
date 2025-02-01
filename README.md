@@ -28,3 +28,15 @@ The number of outputs depends on the number of classes in the classification pro
 The output in regression is a number.
 We can also save and load our models using torch save and torch load and we should save the state dict and with weights only.
 For saving the models we uslaly also use the PATH Module.
+
+We can use the torchMetrics Library for evaluating our resutls.
+
+Accuracy is useful when the different classes have equal data.
+
+Recall means how many of the TPs were we able to correctly identify.
+
+Precision means how many of the Tps that we identified were actually correct.
+
+As prevision goes up recall usually goes down and vice versa.
+
+F1 score is the combination of Recall and Precision with harmonic mean (so that the recall and precision is weighted equally).
