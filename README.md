@@ -26,3 +26,5 @@ We can classify just about any shape using linear and non-linear lines (we can a
 For linear regression, we don’t need activation functions.  
 The number of outputs depends on the number of classes in the classification problem.  
 The output in regression is a number.
+We can also save and load our models using torch save and torch load and we should save the state dict and with weights only.
+For saving the models we uslaly also use the PATH Module.
