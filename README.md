@@ -40,3 +40,9 @@ Precision means how many of the Tps that we identified were actually correct.
 As prevision goes up recall usually goes down and vice versa.
 
 F1 score is the combination of Recall and Precision with harmonic mean (so that the recall and precision is weighted equally).
+
+Matplotlib expect the color channels in different place than pytorch so be aware of that.
+
+You can individually call your block layers and see the output shapes to see what you should put in the sequential layers.
+
+So you can pass dummy data and just print the shapes of the tensors after coming from the different blocks.
